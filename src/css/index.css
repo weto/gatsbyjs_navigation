@@ -1,0 +1,22 @@
+.thumbs-wrapper, .carousel .control-dots, .carousel-status, .legend {
+    display: none;
+}
+
+.control-next, .control-prev {
+    background: #daa520!important;
+}
+
+.carousel.carousel-slider .control-arrow {
+    opacity: initial;
+}
+
+.control-disabled {
+    background: #e8e8e8!important;
+}
+
+.carousel .slide img {
+    width: 100%;
+    border: 0;
+    height: 100%;
+}
+
