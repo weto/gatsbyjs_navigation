@@ -23,7 +23,7 @@ class Home extends Component {
                         {this.state.listImage ? this.state.listImage.map((item, index) => {
                             return <img src={item} alt={`${index}_imagem`} style={{width: 100}} />
                         }):[]}
-                        return <Link to="/detail/1">Detail</Link>
+                        <Link to="/detail/1">Detail</Link>
                     </div>
                 </div>
             </HomeStyle>
